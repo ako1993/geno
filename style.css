@@ -1,0 +1,35 @@
+.HeroBanner {
+    width: 100%;
+    height: auto;
+}
+
+body{
+    background: black;
+    position: relative;
+}
+
+.bodyBackground{
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+}
+
+nav a{
+    display:block;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav{
+    position: absolute;
+    z-index: 1;
+    width: 200px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
