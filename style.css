@@ -33,3 +33,23 @@ nav{
     margin-left: auto;
     margin-right: auto;
 }
+
+
+.bio{
+    width: 100%;
+    color: white;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    padding-top: 20%;
+}
+
+.bio img{
+    width: 20%;
+    height: auto;
+}
+
+.bio p{
+    padding-top: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
