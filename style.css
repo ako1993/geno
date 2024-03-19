@@ -8,9 +8,16 @@ body{
     position: relative;
 }
 
-.bodyBackground{
+.contentwrapper{
     width: 100%;
-    height: 200%;
+    overflow: hidden;
+}
+
+.bodyBackground{
+    display: block;
+    right: 70%;
+    width: auto;
+    height: 100%;
     opacity: 0.5;
 }
 
