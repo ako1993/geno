@@ -97,6 +97,39 @@ footer img{
     padding: 40px;
 }
 
+@media screen and (max-width: 302px){
+    .shows{
+        padding-top: 1000px;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .shows{
+        padding-top: 20%;
+    }
+
+    footer img{
+        padding: 20px;
+    }
+
+    footer{
+        padding-top: 20%;
+        height: 3.5rem;
+    }
+ 
+}
+
+@media screen and (max-width: 400px){
+    .shows img{
+        padding-top: 90%;
+    }
+
+    footer img{
+        width: 30px;
+        height: auto;
+    }
+}
+
 @media screen and (min-width: 454px){
     .shows img{
         padding-top: 70%;
@@ -131,4 +164,55 @@ footer img{
     .bio{
         padding-top: 10%;
     }
+}
+
+@media screen and (min-width: 700px){
+
+    .contentwrapper{
+        padding-bottom: 30%;
+    }
+
+
+    .bodyBackground{
+        display: block;
+        width: 700px;
+        height: auto;
+        opacity: 0.5;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 20%;
+    }
+
+    .shows img{
+        padding-top: 45%;
+    }
+
+}
+
+@media screen and (max-width: 900px){
+    .HeroBanner2{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 900px){
+    .HeroBanner{
+        display: none;
+    }
+
+    .HeroBanner2{
+        width: 100%;
+        height: auto;
+    }
+
+    .bodyBackground{
+        display: block;
+        width: 900px;
+        height: auto;
+        opacity: 0.5;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 20%;
+    }
+
 }
