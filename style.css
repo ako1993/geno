@@ -19,6 +19,7 @@ body{
 .bodyBackground{
     opacity: 0.5;
     position: absolute;
+    display: block;
     top: 20%;
     left: 50%;
     width: auto;
@@ -101,12 +102,92 @@ nav{
     padding: 4%
 }
 
-@media screen and (max-width: 300px){
-    .contentwrapper{
+@media screen and (max-width: 154px){
+
+    .shows p{
+        font-size: x-small;
+    }
+}
+
+@media screen and (max-width: 169px){
+    nav a{
+        font-size: smaller;
+    }
+
+    .biotext{
+        font-size: x-small;
         
     }
-    
+
+    .shows{
+        font-size: smaller;
+    }
+
+    .shows img{
+        width: 25%;
+    }
+
+    .bio img{
+        width: 10%;
+    }
 }
+
+@media screen and (max-width: 228px){
+    .biotext{
+        font-size: smaller;
+        
+    }
+    .shows p{
+        font-size: smaller;
+    }
+
+    .shows img{
+        width: 30%;
+    }
+
+    .bio img{
+        width: 15%;
+    }
+}
+
+@media screen and (min-width: 525px){
+    .bio p{
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .bio img{
+        width: 15%
+    }
+
+    .shows img{
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 672px){
+    .bio p{
+        width: 65%;
+    }
+
+    footer{
+        height: 2.5rem; 
+    }
+}
+
+@media screen and (min-width: 807px){
+    .contentwrapper{
+        height: 900px;
+    }
+
+    .bodyBackground{
+        top: 20%;
+        left: 40%;
+    }
+}
+
    
 @media screen and (max-width: 900px){
     .HeroBanner2{
@@ -122,6 +203,133 @@ nav{
     .HeroBanner2{
         width: 100%;
         height: auto;
+    }
+
+@media screen and (min-width: 916px){
+    p{
+        font-size: larger;
+    }
+}
+
+@media screen and (min-width: 1100px){
+
+    p{
+        font-size: x-large;
+    }
+
+    .contentwrapper{
+        height: 1000px;
+    }
+
+    .bodyBackground{
+        top: 20%;
+        left: 40%;
+    }
+
+    nav a{
+        font-size: x-large;
+    }
+
+    }
+
+    @media screen and (min-width: 1200px){
+        .bio p{
+            width:50%;
+        }
+
+        .bio img{
+            width: 10%;
+        }
+
+        .shows img{
+            width: 25%;
+        }
+    }
+
+    @media screen and (min-width: 1400px){
+        .contentwrapper{
+            height: 1200px;
+        }
+    
+        .bodyBackground{
+            top: 20%;
+            left: 36%;
+        }
+        .bio img{
+            width: 7%;
+        }
+
+        .shows img{
+            width: 15%;
+        }
+
+        p{
+            font-size: xx-large;
+        } 
+    }
+
+    @media screen and (min-width: 1600px){
+        .bodyBackground{
+            top: 20%;
+            left: 39%;
+        }
+    }
+
+    @media screen and (min-width: 2000px){
+
+        .contentwrapper{
+            height: 1500px;
+        }
+
+        .bodyBackground{
+            top: 20%;
+            left: 34%;
+        }
+
+        nav a{
+            font-size: xx-large;
+        }
+
+        footer{
+            height: 4.5rem; 
+        }
+    }
+
+    @media screen and (min-width: 2200px){
+        .bodyBackground{
+            top: 20%;
+            left: 36%;
+        }
+
+        .bio p{
+            width:40%;
+        }
+
+        .bio{
+            padding-top: 5%;
+        }
+    }
+
+    @media screen and (min-width: 2600px){
+        .contentwrapper{
+            height: 1800px;
+        }
+
+        .bodyBackground{
+            top: 20%;
+            left: 33%;
+        }
+
+        nav a{
+            font-size: 300%;
+        }
+    }
+
+    @media screen and (min-width: 2800px){
+        .bodyBackground{
+            top: 20%;
+            left: 36%;
+        } 
     }
 
 }
