@@ -102,6 +102,30 @@ nav{
     padding: 4%
 }
 
+label{
+    color: white;
+}
+
+form{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+input{
+    width: 80%;
+}
+
+textarea{
+    width: 80%;
+}
+
 @media screen and (max-width: 154px){
 
     .shows p{
